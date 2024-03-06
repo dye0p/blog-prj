@@ -8,7 +8,7 @@ import lombok.Getter;
 
 @Entity
 @Getter
-public class User extends BaseEntity{ //회원 엔티티
+public class User extends BaseEntity{//회원 엔티티
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
