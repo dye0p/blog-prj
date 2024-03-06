@@ -8,7 +8,7 @@ import org.springframework.data.annotation.LastModifiedBy;
 
 @Getter
 @MappedSuperclass
-public abstract class BaseEntity {
+public abstract class BaseEntity {//공통 매핑 정보
 
     @Column(name = "create_date")
     @CreatedDate
