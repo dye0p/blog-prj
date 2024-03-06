@@ -5,7 +5,7 @@ import lombok.Getter;
 
 @Entity
 @Getter
-public class Post extends BaseEntity { //게시글 엔티티
+public class Posts extends BaseEntity {//게시글 엔티티
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
