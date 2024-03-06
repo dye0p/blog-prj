@@ -5,7 +5,7 @@ import lombok.Getter;
 
 @Entity
 @Getter
-public class Coment extends BaseEntity { //댓글 엔티티
+public class Coment extends BaseEntity {//댓글 엔티티
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -18,6 +18,6 @@ public class Coment extends BaseEntity { //댓글 엔티티
 
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "post_id")
-    private Post post;
+    private Posts posts;
 
 }
